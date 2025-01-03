@@ -1,0 +1,54 @@
+############### First step install Required Python libraries ###############
+Microsoft Windows [Version 10.0.22631.4391]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Python_project\screen_recorder>pip install pillow
+Defaulting to user installation because normal site-packages is not writeable
+Collecting pillow
+  Downloading pillow-11.0.0-cp312-cp312-win_amd64.whl.metadata (9.3 kB)
+Downloading pillow-11.0.0-cp312-cp312-win_amd64.whl (2.6 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.6/2.6 MB 3.4 MB/s eta 0:00:00
+Installing collected packages: pillow
+Successfully installed pillow-11.0.0
+
+[notice] A new release of pip is available: 24.2 -> 24.3.1
+[notice] To update, run: python.exe -m pip install --upgrade pip
+
+C:\Python_project\screen_recorder>pip install numpy 
+Defaulting to user installation because normal site-packages is not writeable
+Collecting numpy
+  Downloading numpy-2.1.2-cp312-cp312-win_amd64.whl.metadata (59 kB)
+Downloading numpy-2.1.2-cp312-cp312-win_amd64.whl (12.6 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 12.6/12.6 MB 3.3 MB/s eta 0:00:00
+Installing collected packages: numpy
+Successfully installed numpy-2.1.2
+
+[notice] A new release of pip is available: 24.2 -> 24.3.1
+[notice] To update, run: python.exe -m pip install --upgrade pip
+
+C:\Python_project\screen_recorder>pip install opencv-contrib-python
+Defaulting to user installation because normal site-packages is not writeable
+Collecting opencv-contrib-python
+  Downloading opencv_contrib_python-4.10.0.84-cp37-abi3-win_amd64.whl.metadata (20 kB)
+Requirement already satisfied: numpy>=1.21.2 in c:\users\sagar\appdata\roaming\python\python312\site-packages (from opencv-contrib-python) (2.1.2)
+Downloading opencv_contrib_python-4.10.0.84-cp37-abi3-win_amd64.whl (45.5 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 45.5/45.5 MB 9.5 MB/s eta 0:00:00
+Installing collected packages: opencv-contrib-python
+Successfully installed opencv-contrib-python-4.10.0.84
+
+[notice] A new release of pip is available: 24.2 -> 24.3.1
+[notice] To update, run: python.exe -m pip install --upgrade pip
+
+C:\Python_project\screen_recorder>pip install pywin32              
+Defaulting to user installation because normal site-packages is not writeable
+Collecting pywin32
+  Downloading pywin32-308-cp312-cp312-win_amd64.whl.metadata (8.3 kB)
+Downloading pywin32-308-cp312-cp312-win_amd64.whl (6.5 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 6.5/6.5 MB 10.9 MB/s eta 0:00:00
+Installing collected packages: pywin32
+Successfully installed pywin32-308
+
+[notice] A new release of pip is available: 24.2 -> 24.3.1
+[notice] To update, run: python.exe -m pip install --upgrade pip
+
+C:\Python_project\screen_recorder>
